@@ -1,0 +1,15 @@
+//grid system // 
+$grid-columns: 12;
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(12, minmax(0,1fr));
+    column-gap: 20px;
+    margin: 0 auto;
+}
+
+@for $i from 1 through $grid-columns {
+  .column-#{$i} {
+    grid-column: span $i;
+  }
+}

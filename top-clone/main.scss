@@ -1,0 +1,48 @@
+@use '../reset.css';
+@use '../grid.css';
+
+$lg-width: 1140px;
+
+body {
+    font-family: 'Open Sans', sans-serif;}
+
+.navbar {
+    max-width: $lg-width;
+    height: 90px;
+    padding: 0 20px;
+}
+
+.flex-center {
+    display: flex;
+    align-items: center;
+}
+
+.flex-end {
+    display: flex;
+    justify-content: end;
+}
+
+.logo-text {
+    margin-left: 15px;
+
+    color: #cc9543;
+    font-family: 'Amatic SC', cursive;
+    font-size: 2.5em;
+    letter-spacing: 0.1px;
+}
+
+.top-logo {
+    height: 70px;
+}
+
+.nav-item {
+    padding: 0 10px;
+
+    color: rgba(74,74,74,0.7);
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.nav-item:hover {
+    color: black;
+}
