@@ -113,6 +113,16 @@ table {
   flex-wrap: wrap;
 }
 
+.instructions ol, .course-content p {
+  font-size: 1.1em;
+  line-height: 2;
+}
+
+.instructions h3, .course-content h2 {
+  color: #4a4a4a;
+  font-weight: 600;
+}
+
 body {
   font-family: "Open Sans", sans-serif;
 }
@@ -206,6 +216,34 @@ header .subheading {
 .content-table li:nth-child(1) {
   color: black;
   font-weight: 600;
+}
+
+.course-content {
+  padding: 60px 10px 0 10px;
+}
+.course-content h2 {
+  margin-bottom: 20px;
+  font-size: 1.6em;
+  text-transform: capitalize;
+}
+.course-content p {
+  margin: 20px 0;
+}
+
+.instructions {
+  padding: 20px 30px;
+  background-color: #f3f3f3;
+}
+.instructions ol {
+  padding-left: 10px;
+  list-style: decimal;
+}
+.instructions ol li {
+  margin: 20px 0;
+}
+.instructions h3 {
+  margin-top: 60px;
+  font-size: 1.2em;
 }
 
 /*# sourceMappingURL=main.css.map */

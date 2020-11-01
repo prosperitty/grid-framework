@@ -10,6 +10,16 @@ $width-100: 100%;
     flex-wrap: wrap;
 }
 
+%p-text {
+    font-size: 1.1em;
+    line-height: 2;
+}
+
+%heading-text {
+    color: #4a4a4a;
+    font-weight: 600;
+}
+
 body {
     font-family: 'Open Sans', sans-serif;
 }
@@ -118,3 +128,39 @@ header {
     }
 }
 
+.course-content {
+    padding: 60px 10px 0 10px;
+
+    h2 {
+        margin-bottom: 20px;
+        font-size: 1.6em;
+        text-transform: capitalize;
+        @extend %heading-text;
+    }
+
+    p {
+        margin: 20px 0;
+        @extend %p-text;
+    }
+}
+
+.instructions {
+    padding: 20px 30px;
+    background-color: #f3f3f3;
+
+    ol {
+        padding-left: 10px;
+        @extend %p-text;
+        list-style: decimal;
+
+        li {
+            margin: 20px 0;
+        }
+    }
+
+    h3 {
+        margin-top: 60px;
+        font-size: 1.2em;
+        @extend %heading-text; 
+    }
+}
