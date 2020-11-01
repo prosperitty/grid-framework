@@ -2,30 +2,44 @@
 @use '../grid.css';
 
 $lg-width: 1140px;
+$gold-color: #cc9543;
+$width-100: 100%;
+
+%d-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
 
 body {
-    font-family: 'Open Sans', sans-serif;}
-
-.navbar {
-    max-width: $lg-width;
-    height: 90px;
-    padding: 0 20px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .flex-center {
-    display: flex;
+    @extend %d-flex;
     align-items: center;
 }
 
 .flex-end {
-    display: flex;
+    @extend %d-flex;
     justify-content: end;
+}
+
+.flex-j-center {
+    @extend %d-flex;
+    justify-content: center;
+}
+
+.navbar {
+    max-width: $lg-width;
+    height: 90px;
+    padding: 0 1.5em;
+    margin-bottom: 50px;
 }
 
 .logo-text {
     margin-left: 15px;
 
-    color: #cc9543;
+    color: $gold-color;
     font-family: 'Amatic SC', cursive;
     font-size: 2.5em;
     letter-spacing: 0.1px;
@@ -36,7 +50,7 @@ body {
 }
 
 .nav-item {
-    padding: 0 10px;
+    padding: 0 0.5em;
 
     color: rgba(74,74,74,0.7);
     font-weight: bold;
@@ -46,3 +60,61 @@ body {
 .nav-item:hover {
     color: black;
 }
+
+.full-width {
+    width: $width-100;
+}
+
+.text-center {
+    text-align: center;
+}
+
+header {
+    max-width: $lg-width;
+
+    figure {
+        border-radius: 50%;
+        box-shadow: 0 5px 16px 0 rgba(0,0,0,0.1);
+    }
+
+    h1 {
+        margin: 25px 0;
+        font-size: 2.5em;
+        font-weight: 300;
+    }
+
+    .subheading {
+        color: $gold-color;
+        text-transform: uppercase;
+        font-size: 1.2em;
+        font-weight: 600;
+    }
+}
+
+
+.main-container {
+    width: $lg-width;
+    margin-top: 50px;
+}
+
+.content-table {
+    color: rgba(74,74,74,0.7);
+    font-size: 0.9em;
+    text-transform: uppercase;
+
+    list-style: disc;
+
+    li {
+        padding: 20px 0;
+    }
+
+    li:hover {
+        color: black;
+    }
+
+    li:nth-child(1) {
+        color: black;
+        font-weight: 600;;
+    }
+}
+
