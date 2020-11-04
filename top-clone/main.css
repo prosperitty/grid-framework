@@ -110,7 +110,7 @@ table {
 /*# sourceMappingURL=grid.css.map */
 .thinkful-section button, .discord-link button {
   height: 50px;
-  width: 250px;
+  width: 220px;
   color: white;
   font-size: 1em;
   font-weight: 600;
@@ -132,6 +132,12 @@ table {
 .instructions h3, .course-content h2 {
   color: #4a4a4a;
   font-weight: 600;
+}
+
+footer li, .nav-item {
+  color: rgba(74, 74, 74, 0.7);
+  font-weight: bold;
+  text-transform: capitalize;
 }
 
 body {
@@ -171,9 +177,6 @@ body {
 
 .nav-item {
   padding: 0 0.5em;
-  color: rgba(74, 74, 74, 0.7);
-  font-weight: bold;
-  text-transform: capitalize;
 }
 
 .nav-item:hover {
@@ -265,6 +268,7 @@ header .subheading {
 }
 
 .bottom-section {
+  padding: 100px 0;
   background-color: #f3f3f3;
 }
 
@@ -278,7 +282,7 @@ header .subheading {
   font-weight: 200;
 }
 .discord-link button {
-  margin: 30px 0;
+  margin: 30px 0 80px 0;
   background-color: #cc9543;
 }
 
@@ -307,6 +311,23 @@ header .subheading {
 .thinkful-section hr {
   margin: 20px 0;
   color: #f3f3f3;
+}
+
+footer {
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+footer svg {
+  padding: 0 15px;
+  fill: #cc9543;
+}
+footer svg:hover {
+  fill: black;
+}
+footer li {
+  padding: 7px 0;
 }
 
 /*# sourceMappingURL=main.css.map */
