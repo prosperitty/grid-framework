@@ -108,12 +108,23 @@ table {
 }
 
 /*# sourceMappingURL=grid.css.map */
+.thinkful-section button, .discord-link button {
+  height: 50px;
+  width: 250px;
+  color: white;
+  font-size: 1em;
+  font-weight: 600;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.296);
+}
+
 .flex-j-center, .flex-end, .flex-center {
   display: flex;
   flex-wrap: wrap;
 }
 
-.instructions ol, .course-content p {
+.discord-link, .instructions ol, .course-content p {
   font-size: 1.1em;
   line-height: 2;
 }
@@ -197,7 +208,7 @@ header .subheading {
 }
 
 .main-container {
-  width: 1140px;
+  max-width: 1140px;
   margin-top: 50px;
 }
 
@@ -244,6 +255,58 @@ header .subheading {
 .instructions h3 {
   margin-top: 60px;
   font-size: 1.2em;
+}
+.instructions a {
+  color: #cc9543;
+}
+
+.additional-resources {
+  margin: 50px 0;
+}
+
+.bottom-section {
+  background-color: #f3f3f3;
+}
+
+.discord-link {
+  max-width: 1140px;
+  color: rgba(74, 74, 74, 0.7);
+  text-align: center;
+}
+.discord-link h2 {
+  font-size: 2em;
+  font-weight: 200;
+}
+.discord-link button {
+  margin: 30px 0;
+  background-color: #cc9543;
+}
+
+.thinkful-section {
+  max-width: 1050px;
+  padding: 60px 40px;
+  border-radius: 10px;
+  background-color: white;
+}
+.thinkful-section h1 {
+  font-size: 1.5em;
+  color: rgba(74, 74, 74, 0.7);
+}
+.thinkful-section button {
+  background-color: #6abfc3;
+}
+.thinkful-section h2 {
+  font-size: 1.4em;
+  font-weight: 600;
+}
+.thinkful-section p {
+  margin: 0 10px;
+  font-size: 1.2em;
+  font-weight: 600;
+}
+.thinkful-section hr {
+  margin: 20px 0;
+  color: #f3f3f3;
 }
 
 /*# sourceMappingURL=main.css.map */
