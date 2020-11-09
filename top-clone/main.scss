@@ -3,6 +3,7 @@
 
 $lg-width: 1140px;
 $gold-color: #cc9543;
+$teal-color: #6abfc3;
 $gray-bg: #f3f3f3;
 $gray-text: rgba(74,74,74,0.7);
 $width-100: 100%;
@@ -88,6 +89,11 @@ body {
     color: black;
 }
 
+.hamburger-icon {
+    display: none; 
+    fill: $teal-color;
+}
+
 .full-width {
     width: $width-100;
 }
@@ -120,7 +126,7 @@ header {
 
 
 .main-container {
-    max-width: $lg-width;
+    // max-width: $lg-width;
     margin-top: 50px;
 }
 
@@ -215,7 +221,7 @@ header {
 
 
 .thinkful-section {
-    max-width: 1050px;
+    max-width: 75%;
     padding: 60px 40px;
     border-radius: 10px;
     background-color: white;
@@ -227,7 +233,7 @@ header {
 
     button {
         @extend %button-style;
-        background-color: #6abfc3;
+        background-color: $teal-color;
     }
 
     h2 {
@@ -265,5 +271,53 @@ footer {
     li {
         padding: 7px 0;
         @extend %nav-items;
+    }
+}
+
+@media (min-width: 1200px) { 
+    .main-container {
+        max-width: $lg-width;
+    }
+}
+  
+@media (min-width: 992px) and (max-width: 1199.99px) { 
+    .main-container {
+        max-width: 960px;
+    }
+}
+  
+@media (max-width: 991.99px) { 
+    .content-table {
+        display: none;
+    }
+
+    .main-container {
+        max-width: 90%;
+    }
+
+    .thinkful-section {
+        text-align: center;
+    }
+
+    .hamburger-icon {
+        display: inline-flex;
+    }
+
+    .nav-list {
+        display: none;
+    }
+}
+  
+@media (max-width: 650px) {
+    .thinkful-section {
+        text-align: center;
+
+        div {
+            display: block;
+        }
+    }
+
+    .footer-logo {
+        display: none;
     }
 }
