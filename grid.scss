@@ -13,3 +13,27 @@ $grid-columns: 12;
     grid-column: span $i;
   }
 }
+
+@media (min-width: 1200px) { 
+  @for $i from 1 through $grid-columns {
+    .column-lg-#{$i} {
+      grid-column: span $i;
+    }
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1999.99px) { 
+  @for $i from 1 through $grid-columns {
+    .column-md-#{$i} {
+      grid-column: span $i;
+    }
+  }
+}
+
+@media (max-width: 991.99px) { 
+  @for $i from 1 through $grid-columns {
+    .column-sm-#{$i} {
+      grid-column: span $i;
+    }
+  }
+}
