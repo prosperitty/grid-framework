@@ -102,7 +102,7 @@
     grid-column: span 12;
   }
 }
-@media (min-width: 992px) and (max-width: 1999.99px) {
+@media (min-width: 992px) and (max-width: 1199.99px) {
   .column-md-1 {
     grid-column: span 1;
   }

@@ -22,7 +22,7 @@ $grid-columns: 12;
   }
 }
 
-@media (min-width: 992px) and (max-width: 1999.99px) { 
+@media (min-width: 992px) and (max-width: 1199.99px) { 
   @for $i from 1 through $grid-columns {
     .column-md-#{$i} {
       grid-column: span $i;
