@@ -1,0 +1,528 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  column-gap: 20px;
+  margin: 0 auto;
+}
+
+.column-1 {
+  grid-column: span 1;
+}
+
+.column-2 {
+  grid-column: span 2;
+}
+
+.column-3 {
+  grid-column: span 3;
+}
+
+.column-4 {
+  grid-column: span 4;
+}
+
+.column-5 {
+  grid-column: span 5;
+}
+
+.column-6 {
+  grid-column: span 6;
+}
+
+.column-7 {
+  grid-column: span 7;
+}
+
+.column-8 {
+  grid-column: span 8;
+}
+
+.column-9 {
+  grid-column: span 9;
+}
+
+.column-10 {
+  grid-column: span 10;
+}
+
+.column-11 {
+  grid-column: span 11;
+}
+
+.column-12 {
+  grid-column: span 12;
+}
+
+@media (min-width: 1200px) {
+  .column-lg-1 {
+    grid-column: span 1;
+  }
+
+  .column-lg-2 {
+    grid-column: span 2;
+  }
+
+  .column-lg-3 {
+    grid-column: span 3;
+  }
+
+  .column-lg-4 {
+    grid-column: span 4;
+  }
+
+  .column-lg-5 {
+    grid-column: span 5;
+  }
+
+  .column-lg-6 {
+    grid-column: span 6;
+  }
+
+  .column-lg-7 {
+    grid-column: span 7;
+  }
+
+  .column-lg-8 {
+    grid-column: span 8;
+  }
+
+  .column-lg-9 {
+    grid-column: span 9;
+  }
+
+  .column-lg-10 {
+    grid-column: span 10;
+  }
+
+  .column-lg-11 {
+    grid-column: span 11;
+  }
+
+  .column-lg-12 {
+    grid-column: span 12;
+  }
+}
+@media (min-width: 992px) and (max-width: 1999.99px) {
+  .column-md-1 {
+    grid-column: span 1;
+  }
+
+  .column-md-2 {
+    grid-column: span 2;
+  }
+
+  .column-md-3 {
+    grid-column: span 3;
+  }
+
+  .column-md-4 {
+    grid-column: span 4;
+  }
+
+  .column-md-5 {
+    grid-column: span 5;
+  }
+
+  .column-md-6 {
+    grid-column: span 6;
+  }
+
+  .column-md-7 {
+    grid-column: span 7;
+  }
+
+  .column-md-8 {
+    grid-column: span 8;
+  }
+
+  .column-md-9 {
+    grid-column: span 9;
+  }
+
+  .column-md-10 {
+    grid-column: span 10;
+  }
+
+  .column-md-11 {
+    grid-column: span 11;
+  }
+
+  .column-md-12 {
+    grid-column: span 12;
+  }
+}
+@media (max-width: 991.99px) {
+  .column-sm-1 {
+    grid-column: span 1;
+  }
+
+  .column-sm-2 {
+    grid-column: span 2;
+  }
+
+  .column-sm-3 {
+    grid-column: span 3;
+  }
+
+  .column-sm-4 {
+    grid-column: span 4;
+  }
+
+  .column-sm-5 {
+    grid-column: span 5;
+  }
+
+  .column-sm-6 {
+    grid-column: span 6;
+  }
+
+  .column-sm-7 {
+    grid-column: span 7;
+  }
+
+  .column-sm-8 {
+    grid-column: span 8;
+  }
+
+  .column-sm-9 {
+    grid-column: span 9;
+  }
+
+  .column-sm-10 {
+    grid-column: span 10;
+  }
+
+  .column-sm-11 {
+    grid-column: span 11;
+  }
+
+  .column-sm-12 {
+    grid-column: span 12;
+  }
+}
+/*# sourceMappingURL=grid.css.map */
+.thinkful-section button, .discord-link button {
+  height: 50px;
+  width: 220px;
+  color: white;
+  font-size: 1em;
+  font-weight: 600;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.296);
+}
+
+.flex-j-center, .flex-end, .flex-center {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.discord-link, .instructions ol, .course-content p {
+  font-size: 1.1em;
+  line-height: 2;
+}
+
+.instructions h3, .course-content h2 {
+  color: #4a4a4a;
+  font-weight: 600;
+}
+
+footer li, .nav-item {
+  color: rgba(74, 74, 74, 0.7);
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.flex-center {
+  align-items: center;
+}
+
+.flex-end {
+  justify-content: end;
+}
+
+.flex-j-center {
+  justify-content: center;
+}
+
+.navbar {
+  max-width: 1140px;
+  height: 90px;
+  padding: 0 1.5em;
+  margin-bottom: 50px;
+}
+
+.logo-text {
+  margin-left: 15px;
+  color: #cc9543;
+  font-family: "Amatic SC", cursive;
+  font-size: 2.5em;
+  letter-spacing: 0.1px;
+}
+
+.top-logo {
+  height: 70px;
+}
+
+.nav-item {
+  padding: 0 0.5em;
+}
+
+.nav-item:hover {
+  color: black;
+}
+
+.hamburger-icon {
+  display: none;
+  fill: #6abfc3;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+header {
+  max-width: 1140px;
+}
+header figure {
+  border-radius: 50%;
+  box-shadow: 0 5px 16px 0 rgba(0, 0, 0, 0.1);
+}
+header h1 {
+  margin: 25px 0;
+  font-size: 2.5em;
+  font-weight: 300;
+}
+header .subheading {
+  color: #cc9543;
+  text-transform: uppercase;
+  font-size: 1.2em;
+  font-weight: 600;
+}
+
+.main-container {
+  margin-top: 50px;
+}
+
+.content-table {
+  color: rgba(74, 74, 74, 0.7);
+  font-size: 0.9em;
+  text-transform: uppercase;
+  list-style: disc;
+}
+.content-table li {
+  padding: 20px 0;
+}
+.content-table li:hover {
+  color: black;
+}
+.content-table li:nth-child(1) {
+  color: black;
+  font-weight: 600;
+}
+
+.course-content {
+  padding: 60px 10px 0 10px;
+}
+.course-content h2 {
+  margin-bottom: 20px;
+  font-size: 1.6em;
+  text-transform: capitalize;
+}
+.course-content p {
+  margin: 20px 0;
+}
+
+.instructions {
+  padding: 20px 30px;
+  background-color: #f3f3f3;
+}
+.instructions ol {
+  padding-left: 10px;
+  list-style: decimal;
+}
+.instructions ol li {
+  margin: 20px 0;
+}
+.instructions h3 {
+  margin-top: 60px;
+  font-size: 1.2em;
+}
+.instructions a {
+  color: #cc9543;
+}
+
+.additional-resources {
+  margin: 50px 0;
+}
+
+.bottom-section {
+  padding: 100px 0;
+  background-color: #f3f3f3;
+}
+
+.discord-link {
+  max-width: 1140px;
+  color: rgba(74, 74, 74, 0.7);
+  text-align: center;
+}
+.discord-link h2 {
+  font-size: 2em;
+  font-weight: 200;
+}
+.discord-link button {
+  margin: 30px 0 80px 0;
+  background-color: #cc9543;
+}
+
+.thinkful-section {
+  max-width: 75%;
+  padding: 60px 40px;
+  border-radius: 10px;
+  background-color: white;
+}
+.thinkful-section h1 {
+  font-size: 1.5em;
+  color: rgba(74, 74, 74, 0.7);
+}
+.thinkful-section button {
+  background-color: #6abfc3;
+}
+.thinkful-section h2 {
+  font-size: 1.4em;
+  font-weight: 600;
+}
+.thinkful-section p {
+  margin: 0 10px;
+  font-size: 1.2em;
+  font-weight: 600;
+}
+.thinkful-section hr {
+  margin: 20px 0;
+  color: #f3f3f3;
+}
+
+footer {
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+footer svg {
+  padding: 0 15px;
+  fill: #cc9543;
+}
+footer svg:hover {
+  fill: black;
+}
+footer li {
+  padding: 7px 0;
+}
+
+@media (min-width: 1200px) {
+  .main-container {
+    max-width: 1140px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199.99px) {
+  .main-container {
+    max-width: 960px;
+  }
+}
+@media (max-width: 991.99px) {
+  .content-table {
+    display: none;
+  }
+
+  .main-container {
+    max-width: 90%;
+  }
+
+  .thinkful-section {
+    text-align: center;
+  }
+
+  .hamburger-icon {
+    display: inline-flex;
+  }
+
+  .nav-list {
+    display: none;
+  }
+}
+@media (max-width: 650px) {
+  .thinkful-section {
+    text-align: center;
+  }
+  .thinkful-section div {
+    display: block;
+  }
+
+  .footer-logo {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
