@@ -1,4 +1,4 @@
-# Simple-Grid-Framework
+# Simple Grid Framework
 
 ### Overview
 
@@ -10,7 +10,7 @@ This is a 12-column grid framework that is being applied to a cloned version of 
 
 ## How it works
 
-# Grid Container
+### Grid Container
 To initialize a 12 column grid container, you may use a predefined class named "container". Like so:
 
 ```html 
@@ -19,7 +19,7 @@ To initialize a 12 column grid container, you may use a predefined class named "
 </div>
 ```
 
-# Setting columns
+### Setting columns
 This framework allows you to utilize columns to create a responsive layout.
 After initializing a grid container, you may start adding content to this container.
 Predefined classes, "column-[1-12]", can be utilized to create column layouts of your desire.
@@ -41,7 +41,7 @@ A two column grid may be created like so:
 </div> 
 ```
 
-# Grid Breakpoints
+### Grid Breakpoints
 Breakpoints may be applied to break columns at certain screen sizes.
 There are three breakpoints, which are, "lg", "md", and "sm".
 These breakpoints may be added to the "column" class to break certain columns.
