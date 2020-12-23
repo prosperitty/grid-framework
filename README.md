@@ -43,7 +43,7 @@ A two column grid may be created like so:
 
 ### Grid Breakpoints
 Breakpoints may be applied to break columns at certain screen sizes.\
-There are three breakpoints, which are, "lg", "md", and "sm".
+There are three breakpoints, which are, "lg", "md", and "sm".\
 These breakpoints may be added to the "column" class to break certain columns.
 
 - Sizes
@@ -54,7 +54,7 @@ These breakpoints may be added to the "column" class to break certain columns.
 Example:\
 At the large breakpoint, the container will have 4 columns\
 At the medium breakpoint, the container will have 2 columns\
-At the small breakpoint, the container will have 1 column\
+At the small breakpoint, the container will have 1 column
 
 ```html 
 <div class="container">
