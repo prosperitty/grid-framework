@@ -69,5 +69,5 @@ At the small breakpoint, the container will have 1 column
 
 [The Odin Project](https://www.theodinproject.com/courses/html-and-css/lessons/design-your-own-grid-based-framework)
 
-[Live Demo](https://alex-lvl.github.io/grid-framework/)
+[Live Demo](https://prosperitty.github.io/grid-framework/)
 
